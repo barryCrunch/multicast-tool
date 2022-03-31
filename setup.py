@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-package-YOUR-USERNAME-HERE",
+    name="multicast-tool",
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author="Michael Barry",
+    author_email="mbarry@packetdriving.com",
+    description="Multicast Sender and Receiver",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/barryCrunch/multicast-tool",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://github.com/barryCrunch/multicast-tool/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
